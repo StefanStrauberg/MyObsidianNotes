@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ebbaa3fcc62b1885",
+        "id": "9f8c0326817881ac",
         "type": "tabs",
         "children": [
           {
-            "id": "e16b2a77d0f270b5",
+            "id": "0e028bc6f30544f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/01 HTML - Hyper Text Markup Language.md",
+                "file": "HTML/HTML Images.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 HTML - Hyper Text Markup Language"
-            }
-          },
-          {
-            "id": "47a9f91457d2da03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTML/02 HTML Elements.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02 HTML Elements"
-            }
-          },
-          {
-            "id": "04619bf032624bd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTML/03 HTML Attributes.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03 HTML Attributes"
+              "title": "HTML Images"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 242.5
   },
   "right": {
     "id": "5362bb73796a3240",
@@ -122,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML/03 HTML Attributes.md",
+                "file": "HTML/HTML Images.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 03 HTML Attributes"
+              "title": "Backlinks for HTML Images"
             }
           },
           {
@@ -141,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML/03 HTML Attributes.md",
+                "file": "HTML/HTML Images.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 03 HTML Attributes"
+              "title": "Outgoing links from HTML Images"
             }
           },
           {
@@ -168,13 +139,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/03 HTML Attributes.md"
+                "file": "HTML/HTML Images.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 03 HTML Attributes"
+              "title": "Outline of HTML Images"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -191,11 +163,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "04619bf032624bd0",
+  "active": "0e028bc6f30544f5",
   "lastOpenFiles": [
-    "HTML/01 HTML - Hyper Text Markup Language.md",
-    "HTML/02 HTML Elements.md",
-    "HTML/03 HTML Attributes.md",
+    "HTML/HTML Links Hyperlinks.md",
+    "HTML/HTML Headings.md",
+    "HTML/HTML Images.md",
+    "HTML/HTML DOCTYPE Declaration.md",
+    "README.md",
+    "HTML/HTML Elements.md",
+    "HTML/HTML Comments.md",
+    "HTML/HTML Attributes.md",
+    "HTML/HTML - Hyper Text Markup Language.md",
+    "Untitled",
     "HTML"
   ]
 }
