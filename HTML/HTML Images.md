@@ -31,3 +31,217 @@
 | sizes          | Указывает размеры изображения для различных макетов страницы.                                                                       |
 | srcset         | Указывает список файлов изображений для использования в разных ситуациях, позволяя создавать адаптивные изображения.                |
 | usemap         | Определяет изображение как клиентскую карту изображения.                                                                            |
+### Атрибут `src` в теге HTML `<img>`
+
+Атрибут `src` в теге  `<img>` указывает на местоположение изображения. Если URL правильный, браузер отображает изображение; если нет — показывает иконку broken link.
+
+Пример: Тег <img> с атрибутом `src` указывает на логотип GeeksforGeeks, визуально представляя идентичность сайта.
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome To GFG</title>
+</head>
+
+<body>
+    <h2>GeeksforGeeks</h2>
+    <p>This is the demo of <img /> tag.</p>
+    <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20210915115837/gfg3-300x300.png" 
+         alt="GFG image" />
+</body>
+
+</html>
+```
+
+### Атрибут `alt` в теге HTML `<img>`
+
+Атрибут `alt` в теге `<img>` предоставляет текстовую альтернативу, если изображение не загружается. Это помогает пользователям с ограниченными возможностями, которые не могут видеть изображения из-за медленного интернета, ошибок `src` или использования экранных считывателей.
+
+**Пример:** Этот пример иллюстрирует использование атрибута `alt` в теге `<img>`.
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alt Attribute Example</title>
+</head>
+
+<body>
+    <p>Using Alt Attribute</p>
+    <img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+        alt="This is GeeksforGeeks logo" />
+</body>
+
+</html>
+```
+
+### Установка ширины и высоты изображения
+
+Атрибуты `width` и `height` используются для указания ширины и высоты изображения. Значения атрибутов по умолчанию указываются в пикселях. Эти атрибуты всегда задаются в пикселях.
+
+**Пример:** В этом примере устанавливаются ширина и высота изображения с помощью атрибутов `width` и `height` тега `<img>`. Он демонстрирует логотип GeeksforGeeks с размерами 300×300 пикселей.
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Setting width and height of image
+    </title>
+</head>
+
+<body>
+    <p> Setting width and height of image</p>
+
+    <img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+        alt="GeeksforGeeks logo" 
+        width="300" 
+        height="300" />
+</body>
+
+</html>
+```
+
+### Добавление заголовков к изображению в HTML
+
+Чтобы добавить заголовок к изображению, включите атрибут `title` в тег `<img>`, предоставив описательный текст для улучшения взаимодействия с пользователем. 
+
+**Пример:** В этом примере мы показываем изображение с атрибутами `width`, `height` и `title`, используя тег `<img>`. Атрибут title предоставляет описательный текст для взаимодействия с пользователем.
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Inserting an image using "img" tag
+    </title>
+</head>
+
+<body>
+    <p>Inserted image using image tag</p>
+    <img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+        alt="GeeksforGeeks logo" 
+        width="200" 
+        height="200" 
+        title="Logo of GeeksforGeeks" />
+</body>
+
+</html>
+```
+
+### Установка стиля изображения
+
+В этом примере мы используем свойство `border` для оформления изображения. По умолчанию вокруг каждой картинки есть рамка. С помощью атрибута `border` можно изменить толщину рамки. Толщина "0" означает отсутствие рамки вокруг изображения. 
+
+**Пример:** Этот пример иллюстрирует использование свойства стиля внутри тега `<img>` в HTML.
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Setting border to image</title>
+</head>
+
+<body>
+    <p>Setting style to the Image</p>
+    <img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+        alt="GeeksforGeeks logo" 
+        width="200" 
+        height="200" 
+        border="5" />
+</body>
+
+</html>
+```
+
+### Установка выравнивания изображения в HTML
+
+Выравнивание изображения в HTML осуществляется с помощью атрибута `align` в теге `<img>`, который позволяет позиционировать его горизонтально. Доступные варианты: `left`, `right` или `center`, что улучшает макет страницы и визуальную привлекательность.
+
+**Пример:** В этом примере мы выравниваем изображение вправо, используя атрибут `align` в теге `<img>`. Это позиционирует логотип GeeksforGeeks для визуального улучшения.
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aligning an image</title>
+</head>
+
+<body>
+    <p>Aligning an Image</p>
+    <img 
+src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+        alt="GeeksforGeeks logo" 
+        align="right" />
+</body>
+
+</html>
+```
+
+### Добавление изображения в качестве ссылки
+
+Чтобы добавить изображение в качестве ссылки, поместите тег `<img>` внутри тега `<a>`, установив источник изображения с помощью атрибута `href`. Это создает кликабельное изображение, ссылающееся на внешний контент, такой как изображения, видео или другие веб-страницы.
+
+Пути файлов бывают двух типов:
+- **Абсолютные пути:** Всегда содержат корневой элемент и полный список каталогов, необходимых для нахождения файла.
+- **Относительные пути:** Представляют иерархический путь к файлу или папке, начиная с текущего каталога.
+
+**Пример:** В этом примере мы вставляем логотип GeeksforGeeks как кликаемую ссылку, используя тег `<a>`, оборачивая тег `<img>` с указанным в атрибуте `href` местом назначения.
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Adding image as link</title>
+</head>
+
+<body>
+    <h3>GeekforGeeks</h3>
+    <p>Adding image as link</p>
+    <a href="https://ide.geeksforgeeks.org/tryit.php">
+        <img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+            alt="GeeksforGeeks logo" />
+    </a>
+</body>
+
+</html>
+```
+
+### Добавление анимированного изображения
+
+Чтобы добавить анимированное изображение в HTML, используйте тег `<img>` с атрибутом `src`, указывающим на файл формата GIF, что добавляет динамику и улучшает контент веб-страницы.
+
+**Пример:** Этот пример объясняет добавление изображения в формате GIF в HTML.
+```html
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h3>Adding a gif file on a webpage</h3> 
+    <img src="smiley.gif" 
+         alt="smiley" 
+         style="width: 200px; height: 200px" /> 
+</body>
+  
+</html>
+```
+
+### Общие форматы изображений
+
+Вот наиболее распространенные форматы изображений, которые поддерживаются всеми браузерами.
+
+| S.No. | Abbreviation | File Type                              | Extension                        |
+| ----- | ------------ | -------------------------------------- | -------------------------------- |
+| 1     | PNG          | Portable Network Graphics.             | .png                             |
+| 2     | JPEG         | Joint Photographic Expert Group image. | .jpg, .jpeg, .jfif, .pjpeg, .pjp |
+| 3     | SVG          | Scalable Vector Graphics.              | .svg                             |
+| 4     | GIF          | Graphics Interchange Format.           | .gif                             |
+| 5     | ICO          | Microsoft Icon.                        | .ico, .cur                       |
+| 6     | APNG         | Animated Portable Network Graphics.    | .apng                            |
