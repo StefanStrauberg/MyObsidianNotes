@@ -70,7 +70,7 @@
 
 </html>
 ```
-
+![](https://media.geeksforgeeks.org/wp-content/uploads/20240510112340/HTML-Attributes.png)
 ### Атрибут alt в HTML
 
 Атрибут `alt` в HTML предоставляет альтернативный текст для изображения, если оно не может быть отображено. Это улучшает доступность и предоставляет контекст для экранных считывателей.
@@ -98,7 +98,7 @@
 
 </html>
 ```
-
+![](https://media.geeksforgeeks.org/wp-content/uploads/20240510112500/HTML-Attributes-1.jpg)
 ### Атрибуты width и height в HTML
 
 Атрибуты `width` и `height` используются для настройки ширины и высоты изображения (в пикселях).
@@ -121,7 +121,7 @@
 
 </html>
 ```
-
+![](https://media.geeksforgeeks.org/wp-content/uploads/20240510112611/HTML-Attributes-2.jpg)
 ### Атрибут id в HTML
 
 Атрибут `id` в HTML присваивает уникальный идентификатор элементу, что позволяет нацеливаться на него с помощью CSS и JavaScript для стилизации и манипуляции.
@@ -145,7 +145,7 @@
 
 </html>
 ```
-
+![](https://media.geeksforgeeks.org/wp-content/uploads/20240510112944/HTML-Attributes-Example.png)
 ### Атрибут title в HTML
 
 Атрибут `title` используется для пояснения элемента при наведении мыши на него. Поведение может различаться в зависимости от элементов, но обычно значение отображается при загрузке или при наведении курсора.
@@ -167,7 +167,7 @@
 
 </html>
 ```
-
+![](https://media.geeksforgeeks.org/wp-content/uploads/Untitled-5.jpg)
 ### Атрибут href в HTML
 
 Атрибут `href` в HTML, используемый с тегом `<a>`, указывает адрес назначения ссылки. При нажатии на связанный текст происходит переход по этому адресу. Добавление `target="_blank"` открывает ссылку в новой вкладке.
@@ -193,7 +193,7 @@
 
 </html>
 ```
-
+![](https://media.geeksforgeeks.org/wp-content/uploads/al-1.jpg)
 ### Атрибут style в HTML
 
 Атрибут `style` используется для применения различных эффектов CSS к HTML-элементам, таких как изменение размера шрифта, шрифта, цвета и т. д.
@@ -224,7 +224,7 @@
 
 </html>
 ```
-
+![](https://media.geeksforgeeks.org/wp-content/uploads/20240510113457/HTML-style-Attribute.jpg)
 ### Атрибут lang в HTML
 
 Атрибут `lang` используется для указания языка документа. Объявление языка важно для приложений доступности и поисковых систем, так как помогает правильно интерпретировать содержимое.
@@ -273,3 +273,4 @@
 
 </html>
 ```
+![](https://media.geeksforgeeks.org/wp-content/uploads/20240510113317/HTML-lang-attribute.png)
