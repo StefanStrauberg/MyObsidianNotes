@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Tags/HTML span Tag.md",
+                "file": "HTML/Tags/HTML caption Tag.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTML span Tag"
+              "title": "HTML caption Tag"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Tags/HTML caption Tag.md",
+                "file": "HTML/Attributes/HTML align Attribute.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTML caption Tag"
+              "title": "HTML align Attribute"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,31 +178,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62559ff67440f627",
+  "active": "8c9ff252f6e72a5c",
   "lastOpenFiles": [
-    "HTML/HTML Tables/HTML Tables.md",
-    "HTML/Tags/HTML span Tag.md",
-    "HTML/Tags/HTML th Tag.md",
-    "HTML/Tags/HTML td Tag.md",
-    "HTML/Tags/HTML col Tag.md",
     "HTML/Tags/HTML caption Tag.md",
-    "Untitled.canvas",
-    "HTML/Tags/HTML tr Tag.md",
+    "HTML/Attributes/HTML align Attribute.md",
+    "HTML/Attributes/HTML style attribute.md",
+    "HTML/Tags/HTML col Tag.md",
+    "HTML/HTML Tables/HTML Tables.md",
+    "HTML/HTML Basics/HTML Semantics.md",
+    "HTML/HTML Basics/HTML Links Hyperlinks.md",
+    "HTML/HTML Basics/HTML Images.md",
+    "HTML/HTML Basics/HTML Headings.md",
+    "HTML/HTML Basics/HTML Elements.md",
+    "HTML/HTML Basics/HTML DOCTYPE Declaration.md",
     "HTML/HTML Basics/HTML Comments.md",
     "HTML/HTML Basics/HTML Attributes.md",
     "HTML/HTML Basics/HTML - Hyper Text Markup Language.md",
+    "HTML/Tags/HTML tr Tag.md",
+    "HTML/Tags/HTML th Tag.md",
+    "HTML/Tags/HTML td Tag.md",
+    "HTML/Tags/HTML span Tag.md",
+    "HTML/Attributes",
+    "warning.md",
+    "Untitled.canvas",
     "URL_изображения.md",
     "Pasted image 20241031151409.png",
-    "HTML/HTML Basics/HTML Semantics.md",
     "HTML/Tags",
     "HTML/HTML Tables",
     "HTML/HTML Basics",
-    "HTML/HTML Basics/HTML Images.md",
-    "HTML/HTML Basics/HTML Links Hyperlinks.md",
-    "HTML/HTML Basics/HTML Headings.md",
-    "HTML/HTML Basics/HTML DOCTYPE Declaration.md",
     "README.md",
-    "HTML/HTML Basics/HTML Elements.md",
     "HTML"
   ]
 }
